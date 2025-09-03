@@ -90,21 +90,4 @@ const secondTestCaseJson = `{
 const coefficients = solvePolynomialCoefficients(secondTestCaseJson);
 const degree = coefficients.length - 1;
 
-console.log("## Polynomial Analysis");
-console.log(`**Degree of Polynomial (m):** ${degree}`);
-console.log(`**Number of Points Used (k):** ${coefficients.length}`);
-console.log("------------------------------");
-
-console.log("## Calculated Coefficients");
-console.log(
-  "The coefficients `a_i` for the polynomial P(x) = a_6*x^6 + ... + a_0 are:"
-);
-const coeffsString = coefficients.map((c) => c.toString()).join(", ");
-console.log(`**Coefficients [a0, a1, a2, a3, a4, a5, a6]:**`);
-console.log(`[${coeffsString}]`);
-console.log("------------------------------");
-
-console.log("## The Secret Value");
-console.log(
-  `The constant term of the polynomial, **a0**, is **${coefficients[0]}**.`
-);
+console.log(coefficients[0]);
