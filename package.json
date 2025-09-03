@@ -1,0 +1,14 @@
+{
+  "name": "catalog",
+  "version": "1.0.0",
+  "main": "roots.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mathjs": "^14.6.0"
+  }
+}
